@@ -1,0 +1,49 @@
+header {
+  border-bottom: 1px solid #ddd;
+  padding: 1.2rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+}
+
+.digital-collapse {
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1.0rem;
+    flex: 1;
+}
+
+.post-header-date {
+    color: #828282;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.post-header-link {
+    color: rgb(8, 40, 222);
+    margin: 0;
+    font-size: 28px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 1.2rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
