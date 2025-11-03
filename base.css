@@ -5,6 +5,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
+  font-size: clamp(12px, 4vw, 18px);
 }
 
 a {
@@ -20,8 +21,13 @@ a:visited {
     color: black;
 }
 
+.article-header {
+  font-size: clamp(18px, 4vw, 32px);
+}
+
 .digital-collapse {
-    width: 50%;
+    width: 100%;
+    max-width: 800px;
     margin: 1rem auto;
     padding: 1.0rem;
     flex: 1;
@@ -31,19 +37,27 @@ a:visited {
     color: #828282;
     margin: 0;
     line-height: 1.5;
+    font-size: clamp(12px, 4vw, 18px);
 }
 
 .post-header-link {
-    color: rgb(8, 40, 222);
     margin: 0;
-    font-size: 28px;
+    font-size: clamp(18px, 4vw, 32px);
+}
+
+.post-header-link a {
+    color: rgb(55, 55, 246);
 }
 
 footer {
     border-top: 1px solid #ddd;
+    color: #828282;
     padding: 1.2rem 0;
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 2.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: clamp(8px, 4vw, 14px);
 }
