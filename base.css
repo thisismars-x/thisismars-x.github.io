@@ -61,3 +61,11 @@ footer {
     gap: 0.5rem;
     font-size: clamp(8px, 4vw, 14px);
 }
+
+.main-article {
+    font-size: clamp(12px, 4vw, 16px);
+}
+
+.main-article a {
+    color: green;
+}
