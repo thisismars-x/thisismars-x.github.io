@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./base.css">
+  <title> digital blackhole </title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"> digital collapse </a>
+        <a href="index.html"> about </a>
+    </header>
+
+
+    <div class="digital-collapse">
+        <article>
+
+            <div class="post-header">
+                <p class="post-header-date"> December 19, 2025 </p>
+                <p class="post-header-link"> <a href="./ai-winter.html"> we are approaching an ai winter again </a> </p>
+
+                <!-- <img src="./opening_page.png" title="digital gravity" style="width: 60%; height: 60%;"> -->
+
+                <!-- here add your text as html -->
+                <div class="main-article">
+
+                    <p>
+                    
+                        After the publication of <a href="https://arxiv.org/abs/1706.03762"> transformers</a>, 
+                        <a href="https://economictimes.indiatimes.com/tech/technology/openai-discussed-raising-tens-of-billions-at-about-750-billion-valuation-the-information/articleshow/126049149.cms?from=mdr">
+                        the world has changed.
+                        </a> <br> <br> 
+            
+                        AGI, super intelligence, sentient AI, concious AI, oh the buzzwords!! <br> <br>
+
+                        What is the current AI architecture? <br>
+                        Layers of neurons, computing their activation values, to produce a prediction.
+                        Then, employ the principle of maximum likelihood, use cross-entropy to calculate a scalar loss,
+                        propagate it back to your weights using the backprop algorithm fused with some nerdy optimizer.
+
+                        <br> <br> 
+                        Cross entropy is information compression. Technically there is a longer answer, but on 
+                        an intuitive level, if LLaMa3 was trained on 500T of raw text, and it can run inference
+                        on 128gigs, that is an effective compression of (500 * 1024 / 128) ~ 4000x. What we 
+                        effectively do is, compress information into a more compact latent space, 
+                        then find the closest/best approximation of new data on this latent space. Effectively, 
+                        if during training, we observed similar data before, we can provide a similar approximation. 
+
+                        <br> <br> 
+                        So the place we have to begin with is 'data'. How much data do we have? Depends. Good enough?
+                        About 30-50 trillion tokens. We do not have remotely enough data to train a model to 
+                        be AGI. Which drives the next point.
+
+                        <br> <br>
+                        In his <a href="https://www.youtube.com/watch?v=aR20FWCCjAs&t=2388s&pp=ygUQc3V0dG9uIGludGVydm9ldw%3D%3D">
+                        with Dwarkesh Patel, Ilya said something that striked me as remarkable.
+                        </a>. How come these models, perform so good on evals, but generalize so terribly? The answer was something similar to.....
+                        <br> Consider two students that want to do competitive programming(student A, B). A spends 10_000 hours on solving all problems
+                        he can find and performs well. B on the other hand spends 100 hours, and performs equally as well. Well, which student will have 
+                        a more stellar career? Obviously 'B'. Current AI models are 'A'. To train current models, we feed them with all possible data that 
+                        can be scraped, and then ask them to generalize. To make a comparison, like the student 'A', if we wish our AI model 
+                        to perform well on competitive programming problems, we feed it all possible competitive programming problems we can find. 
+                        While this works, it does not work well enough to generalize. We want our models to be similar to student B.
+                        Something that can generalize on 1000x less data. As Ilya pointed out, our current models are lacking the 'it' factor.
+                        That 'it' factor that differentiates student A and B. 'B' just 'has it'.
+
+                        <br> <br>
+                        Another name that comes to mind is Richard Sutton(godfather of RL). In his interview with <a href="https://www.youtube.com/watch?v=21EYKqUsPfg&t=2107s&pp=ygUQc3V0dG9uIGludGVydm9ld9IHCQlPCgGHKiGM7w%3D%3D">
+                        Dwarkesh Patel, Sutton said something that striked me as remarkable.
+                        </a>
+                        'Gradient Descent Will not Generalize'. This single statement was powerful enough to scramble my brain. <br> 
+                        What does Gradient Descent do? Well, it solves for the minima for a non-convex loss function, which is a system of equations.
+                        The solution to a system of equations based on minimizing the entropy, or equivalently maximizing information
+                        compression will not lead to an 'understanding', what it merely does is find a representation that is on-par with 
+                        observations during training. 
+
+                        <br> <br>
+                        AI will continue to make progress, but AGI won't, and there will be a global conscience that will recognize that 
+                        AGI is not going to happen without any major breakthroughs. What we have in fact rediscovered, is narrow AI. The path 
+                        to something like AGI, might be RL, continual learning, but it is my utmost conviction, that scaling transformers 
+                        will not get us to AGI.
+
+
+
+
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+        </article>
+    </div>
+
+    <footer>
+        <p> 
+            the digital collapse is happening <br>
+            <a href="http://www.github.com/thisismars-x" style="color: rgb(37, 78, 203);">  github/thisismars-x </a>
+        </p>
+    </footer>
+
+</body>
+
+
+</html>
+
